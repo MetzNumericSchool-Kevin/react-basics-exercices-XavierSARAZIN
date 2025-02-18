@@ -1,6 +1,7 @@
 import "./App.css";
 import Exercice0 from "./exercices/Exercice0/Component.tsx";
 import Exercice1 from "./exercices/Exercice1/Component.tsx";
+import Exercice2 from "./exercices/Exercice2/Component.tsx";
 
 function App() {
   return (
@@ -10,9 +11,8 @@ function App() {
 
       <section id="exercice2">
         <h2>Si je ne suis pas là, faites sonner la cloche !</h2>
-        <button className="btn btn-primary">🛎️ Appeler Archibald</button>
       </section>
-
+      <Exercice2></Exercice2>
       <h1 className="my-5">Voici quelques objets de ma boutique :</h1>
 
       <section id="exercice3" className="my-5 flex self-center">
