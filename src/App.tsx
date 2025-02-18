@@ -1,10 +1,12 @@
 import "./App.css";
 import Exercice0 from "./exercices/Exercice0/Component.tsx";
+import Exercice1 from "./exercices/Exercice1/Component.tsx";
 
 function App() {
   return (
     <div className="container p-5 mb-4 bg-body-tertiary rounded-3">
-      <Exercice0></Exercice0>
+
+      <Exercice1></Exercice1>
 
       <section id="exercice2">
         <h2>Si je ne suis pas là, faites sonner la cloche !</h2>
